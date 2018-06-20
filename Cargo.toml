@@ -1,0 +1,8 @@
+[package]
+name = "lewton-fuzz"
+version = "0.1.0"
+authors = ["Sergey \"Shnatsel\" Davidoff <shnatsel@gmail.com>"]
+
+[dependencies]
+honggfuzz = "0.5"
+lewton = { git = "https://github.com/Shnatsel/lewton.git" }
